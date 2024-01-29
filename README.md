@@ -1,7 +1,7 @@
 # Python中的一些小作品  2024-01创办
 **Python 一些简单的小游戏，附源码**
 ==
-**—————————————————————————————**
+****
 **下面是计算器的教程**
 
 *V1.0*
@@ -20,7 +20,7 @@ root.attributes('-alpha', 0.9)  # 窗口透明效果
 root['background'] = '#ffffff'  # 设置背景颜色
 ```
 上面是这个程序的初始化
-————————————————
+
 ```python
 result_num = tk.StringVar()  # 定义得数绑定显示的变量
 result_num.set('0')  # 将得数显示设置显示"0"
@@ -28,7 +28,7 @@ result_num.set('0')  # 将得数显示设置显示"0"
 tk.Label(root, textvariable=result_num, font=font, height=2, width=20, justify=tk.LEFT, anchor=tk.SE).grid(row=1, column=1, columnspan=4)  # 设置并布局一下的数的信息
 ```
 以上是得数显示
-————————————————
+
 ```python
 button_clear = tk.Button(root, text='C', width=5, font=font_16, relief=tk.FLAT, bg='#b1b2b2')
 button_back = tk.Button(root, text='←', width=5, font=font_16, relief=tk.FLAT, bg='#b1b2b2')
@@ -40,7 +40,7 @@ button_division.grid(row=2, column=3, padx=4, pady=2)
 button_multiplication.grid(row=2, column=4, padx=4, pady=2)
 # 上面是一系列的按钮
 ```
-————————————————
+
 我们直接开始讲核心语法:
 
 ```python
